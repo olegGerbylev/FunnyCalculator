@@ -1,0 +1,34 @@
+.Game{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.choseAnswer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.choseAnswer>.Button{
+    background-color: rgb(220, 220, 220);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    padding-top: 5px;
+    font: small-caps bold 16px/1 sans-serif;
+    text-align: center;
+}
+.SecretString{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.SecretString>.String{
+    font: small-caps bold 16px/1 sans-serif;
+    margin-left: 10px;
+}
+.Prompt{
+    font: small-caps 24px/1 sans-serif;
+}
